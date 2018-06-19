@@ -1,0 +1,47 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="WebApplication2.WebForm1" %>
+<!DOCTYPE html>
+  <h1>Jonatan</h1>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">   
+    <title>Jonatan</title>
+  
+ <meta charset="utf-8" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>   
+    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+    <script type="text/javascript"> 
+    
+        $(function () {
+            $( "#barra" ).buttonset();
+        });
+        $("#botao2").click(function () {
+            $("botao2").css('color', '# ff1a1a');
+
+        });
+    </script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+           
+     <div id="barra">
+         <div id="botao1">
+        <button>botao1</button>
+    </div>
+       
+        <div id="botao2">
+        <button>botao2</button>
+    </div>
+        <div id="botao3">
+         <button>botao3</button>
+    </div>
+       
+       
+        
+
+    </div> 
+    </form>
+</body>
+</html>
